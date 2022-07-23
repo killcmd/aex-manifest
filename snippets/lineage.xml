@@ -50,6 +50,7 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/bt" name="platform_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf" />
   <project path="hardware/qcom-caf/msm8916/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8916" />
   <project path="hardware/qcom-caf/msm8916/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-msm8916" />
