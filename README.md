@@ -30,7 +30,7 @@ To initialize your local repository using the AospExtended trees, use a
 command like this:
 
 ```bash
-repo init -u https://github.com/AospExtended/manifest.git -b 12.1.x
+repo init -u https://github.com/killcmd/aex-manifest.git -b 12.1.x
 ```
 To initialize a shallow clone, which will save even more space & time, use a command like this:
 
